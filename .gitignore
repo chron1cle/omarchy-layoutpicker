@@ -1,0 +1,16 @@
+# secrets and local environment
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+
+# local cruft
+node_modules/
+*.log
+*.swp
+*~
+.DS_Store
