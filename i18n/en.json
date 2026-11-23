@@ -1,0 +1,18 @@
+{
+  "bar.name": "Layouts",
+  "panel.title": "Layouts",
+  "panel.workspace": "Workspace %1",
+  "current.pattern": "Current: %1",
+  "current.none": "Current: normal tiling",
+  "pattern.columns": "Two columns",
+  "pattern.three-columns": "Three columns",
+  "pattern.rows": "Two rows",
+  "pattern.three-rows": "Three rows",
+  "pattern.master-left": "Master left",
+  "pattern.master-top": "Master top",
+  "pattern.grid": "Grid",
+  "action.reset": "Normal tiling",
+  "note.applied": "Applied %1.",
+  "note.noWorkspace": "No workspace to apply to.",
+  "note.failed": "Hyprland did not accept the change."
+}

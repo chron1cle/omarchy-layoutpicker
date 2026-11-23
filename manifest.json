@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "josh.layoutpicker",
+  "name": "Layout Picker",
+  "version": "1.0.0",
+  "author": "Josh",
+  "description": "Tiling layout patterns for the current workspace. The bar widget opens a panel of patterns: two or three columns, two or three rows, master left or top with a stack, and a grid. Picking one registers a small Lua layout with Hyprland and points the workspace at it, so new windows keep the pattern. The choice is remembered per workspace under the Omarchy state directory and restored when Hyprland reloads. Normal tiling returns the workspace to plain dwindle.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Layout Picker",
+    "description": "Tiling layout patterns for the current workspace",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left",
+    "defaults": {},
+    "schema": []
+  }
+}
